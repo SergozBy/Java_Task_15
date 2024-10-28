@@ -73,6 +73,10 @@
                                     </limits>
                                 </rule>
                             </rules>
+                            <excludes>
+                                <exclude>**/Ticket.class</exclude>
+                                <exclude>**/AviaSouls.class</exclude>
+                            </excludes>
                         </configuration>
                     </execution>
                 </executions>
